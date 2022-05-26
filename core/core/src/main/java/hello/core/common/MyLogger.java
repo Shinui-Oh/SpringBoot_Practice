@@ -3,6 +3,7 @@ package hello.core.common;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -23,6 +24,7 @@ public class MyLogger {
         System.out.println("[" + uuid + "]" + "[" + requestURL + "] " + message);
     }
 
+    @RequestMapping("request")
     @PostConstruct
     public void init() {
         uuid = UUID.randomUUID().toString();

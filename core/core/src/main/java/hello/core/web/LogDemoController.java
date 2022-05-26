@@ -26,8 +26,10 @@ public class LogDemoController {
         System.out.println("myLogger = " + myLogger.getClass());
         myLogger.setRequestURL(requestURL);
 
-        myLogger.log("controller test");
         Thread.sleep(1000);
+        myLogger.log("controller test");
+
+        Thread.sleep(2000);
         logDemoService.logic("testId");
 
         return "OK";

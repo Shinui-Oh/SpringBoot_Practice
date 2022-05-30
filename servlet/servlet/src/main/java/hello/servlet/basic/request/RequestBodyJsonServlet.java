@@ -17,7 +17,6 @@ import java.nio.charset.StandardCharsets;
  * JSON 형식 전송
  * content-type: application/json
  * message body: {"username": "hello", "age": 20}
- *
  */
 
 @WebServlet(name = "requestBodyJsonServlet", urlPatterns = "/request-bodyjson")

@@ -11,7 +11,6 @@ import java.io.IOException;
 
 /**
  * http://localhost:8080/response-json
- *
  */
 
 @WebServlet(name = "responseJsonServlet", urlPatterns = "/response-json")

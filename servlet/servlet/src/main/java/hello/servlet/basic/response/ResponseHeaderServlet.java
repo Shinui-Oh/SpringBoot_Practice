@@ -10,7 +10,6 @@ import java.io.PrintWriter;
 
 /**
  * http://localhost:8080/response-header
- *
  */
 
 @WebServlet(name = "responseHeaderServlet", urlPatterns = "/response-header")

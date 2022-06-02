@@ -8,10 +8,12 @@
   List<Member> members = memberRepository.findAll();
 %>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
 </head>
+
 <body>
 <a href="/index.html">메인</a>
 <table>
@@ -33,4 +35,5 @@
   </tbody>
 </table>
 </body>
+
 </html>

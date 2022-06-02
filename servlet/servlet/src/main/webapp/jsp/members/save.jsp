@@ -15,9 +15,11 @@
     memberRepository.save(member);
 %>
 <html>
+
 <head>
     <title>Title</title>
 </head>
+
 <body>
 성공
 <ul>
@@ -27,4 +29,5 @@
 </ul>
 <a href="/index.html">메인</a>
 </body>
+
 </html>

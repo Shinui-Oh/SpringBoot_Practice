@@ -17,7 +17,6 @@ public class ResponseHeaderServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         // [status-line]
         response.setStatus(HttpServletResponse.SC_OK); //200
 
@@ -35,7 +34,6 @@ public class ResponseHeaderServlet extends HttpServlet {
         // [message body]
         PrintWriter writer = response.getWriter();
         writer.println("ok");
-
     }
 
     private void content(HttpServletResponse response) {

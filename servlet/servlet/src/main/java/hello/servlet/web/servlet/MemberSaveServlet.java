@@ -46,7 +46,6 @@ public class MemberSaveServlet extends HttpServlet {
                 "<a href=\"/index.html\">메인</a>\n" +
                 "</body>\n" +
                 "</html>");
-
     }
 
 }

@@ -19,7 +19,6 @@ public class MemberListServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         List<Member> members = memberRepository.findAll();
 
         response.setContentType("text/html");
@@ -62,7 +61,6 @@ public class MemberListServlet extends HttpServlet {
         w.write("</table>");
         w.write("</body>");
         w.write("</html>");
-
     }
 
 }
